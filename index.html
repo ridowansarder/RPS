@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>RPS</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Welcome to Ridwan's "Rock-Paper-Scissors" game.</h1>
+    <div id="yourchoice"><p>Choose one</p>
+      <img src="./images/rock.png" id="rock" alt="rock" height="50px" width="50px" onclick="rock()">
+      <img src="./images/paper.png" id="paper" alt="rock" height="50px" width="50px" onclick="paper()">
+      <img src="./images/scissors.png" id="scissors" alt="rock" height="50px" width="50px" onclick="scissors()">
+    </div>
+    <div id="youchose"></div>
+    <div id="riduchose"></div>
+    <div id="winner"></div>
+    <div id="score">
+      <p id="yourscore">Your score: 0</p>
+      <p id="ridurscore">Ridwan's score: 0</p>
+      <p id="rule">(Game rule: Whoever scores 5 first wins the game)</p>
+    </div>
+    
+    
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>

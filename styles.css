@@ -1,0 +1,63 @@
+body{
+  background-color: #41311A;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #000000;
+}
+#container{
+  background-color: #EBCDAB;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 80vw;
+}
+h1{
+  font-size: 1.5rem;
+}
+button{
+  font-size: 15px;
+  margin: 20px 5px;
+  border: none;
+  background-color: #412F1A;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}
+button:hover{
+  background-color: #6a4f30;
+}
+button:active{
+  background-color: #856037;
+}
+p, #choose, #yourchoice{
+  font-size: 20px;
+
+}
+p{
+  font-weight: 500;
+}
+#youchose, #riduchose, #winner{
+  font-size: 30px;
+  font-weight: 500;
+}
+input::placeholder{
+  opacity: 50%;
+  font-style: italic;
+}
+
+img{
+  padding: 0 5px;
+  margin-top: 0;
+}
+#yourchoice{
+  margin-bottom: 0;
+}
+
+#rule{
+  font-size: 0.9rem;
+}
